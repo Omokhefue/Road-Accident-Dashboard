@@ -1,74 +1,66 @@
-# 🚗 Road Accidents Dashboard (WPS Office)
 
-A comprehensive dashboard built with **WPS Office Spreadsheets**, using real UK road accident data. This project visualizes key accident trends, compares yearly patterns, and provides interactive insights using slicers and pivot tables.
+## 🚗 Road Accidents Dashboard (WPS Office)
 
----
+An interactive Excel dashboard that visualizes road accident data in the UK. Built using **WPS Office**, this project highlights accident patterns based on road type, surface condition, lighting, and more — helping uncover insights through clean visual storytelling.
 
-## 📊 Dashboard Overview
+### 📊 Features
 
-The dashboard highlights:
-- **Casualties by Road Type** (Bar Chart)
-- **Casualties by Road Surface** (Bar Chart)
-- **Casualties by Light Conditions** (Doughnut Chart)
-- **Casualties by Area (Urban vs Rural)** (Doughnut Chart)
-- **Monthly Trend Comparison** – 2021 vs 2022 (Line Chart)
-- **Key Metrics Cards** – Fatal, Serious, and Slight Casualties
-- **Vehicle-Type Casualties** – Pie chart and totals
-- **Interactive Filters** – Filter by Month, Year, and Area
-- **Hyperlinks** – Email link, Wikipedia reference, and internal sheet navigation
+- **Bar Charts**:  
+  - Casualties by **road type**  
+  - Casualties by **road surface condition**
 
----
+- **Doughnut Charts**:  
+  - Casualties by **location/area** (Urban/Rural)  
+  - Casualties by **light condition**
 
-## 📄 Sheet Structure
+- **Line Chart**:  
+  - Monthly comparison of casualties in **2021 vs 2022**
 
-| **Sheet Name**           | **Description**                                                                 |
-|--------------------------|---------------------------------------------------------------------------------|
-| **Dashboard**            | Main dashboard with interactive charts, cards, and filters                     |
-| **Data Analysis**        | Contains all pivot tables and formulas used to build the dashboard             |
-| **KPIs**                 | Visual summary of key performance indicators (fatal, serious, slight casualties)|
-| **Monthly Trend**        | Line chart comparing monthly casualties between 2021 and 2022                  |
-| **Road Type Casualties** | Bar chart showing casualties across different road types                       |
-| **Road Surface**         | Visual analysis of casualties by road surface conditions                       |
-| **UrbanRural**           | Breakdown of accidents in urban vs rural areas with filters                    |
-| **Light Conditions**     | Doughnut chart of accidents based on lighting conditions                       |
-| **Notes**                | Hyperlinks to Wikipedia, email, and internal dashboard navigation              |
+- **KPI Cards**:  
+  - **Fatal**, **Serious**, and **Slight** Casualty totals  
+  - **Casualties by Car** (number + pie chart)
+
+- **Interactive Filters**:  
+  - **Month**, **Year**, and **Urban/Rural Area**
+
+- **Hyperlinks**:  
+  - External: [Wikipedia – UK Road Accidents](https://en.wikipedia.org/wiki/Road_traffic_safety_in_the_United_Kingdom)  
+  - Internal: Navigation to pivot tables and analysis  
+  - Email: Feedback link to the dashboard creator
 
 ---
 
-## 📁 Tools Used
+### 🧾 File Structure
 
-- **WPS Office (Spreadsheets)**
-- **Pivot Tables & Slicers**
-- **Basic Chart Types (Bar, Line, Doughnut, Cards)**
-
----
-
-## 🔗 External References
-
-- [UK Road Accidents – Wikipedia](https://en.wikipedia.org/wiki/Road_traffic_safety_in_the_United_Kingdom)
-- 📧 [Email Link](mailto:mokhefue@gmail.com?subject=Road%20Accident%20Dashboard%20Feedback)
-
----
-
-## 📌 Notes
-
-- Built to demonstrate Excel-like dashboarding in WPS Office
-- Sheets are clearly separated by topic for easy exploration
-- Interactive slicers allow filtering across multiple visuals
+| Sheet Name         | Description                                       |
+|--------------------|---------------------------------------------------|
+| **Dashboard**       | Main dashboard with all visuals and filters       |
+| **KPI**             | Key performance indicators & summary cards        |
+| **Monthly Trend**   | Casualty trends compared across months and years |
+| **Road Type**       | Analysis by road types                            |
+| **Road Surface**    | Analysis by surface conditions                    |
+| **UrbanRural + Light** | Casualties by area and lighting condition     |
+| **Data Analysis**   | Contains all pivot tables for visuals             |
+| **Raw Data**        | Original UK road accident dataset                 |
 
 ---
 
-## 📷 Preview
+### 📥 Download the Dashboard
 
-![image](https://github.com/user-attachments/assets/8a3a1455-1492-4f23-8a35-fdd09f9d4723)
+👉 [**Download Excel File via Google Drive**](https://drive.google.com/file/d/19_phYg4-2u19HI4-ZsOTTi3s0btNvVVY/view?usp=drive_link)
 
----
-
-## 💡 Improvements (Future Work)
-
-- Add conditional formatting for trends
-- Introduce Power Query or external data automation
-- Enhance interactivity with macros (if supported)
+*(Make sure to download and open in Excel or WPS Office for full interactivity.)*
 
 ---
 
+### 🛠️ Tools Used
+
+- **WPS Office (Excel equivalent)**
+- Pivot Tables, Slicers, Charts
+- Hyperlink Navigation
+
+---
+
+### 📩 Feedback or Collaboration?
+
+Click here to [**send an email**](mailto:mokhefue@gmail.com?subject=Road%20Accident%20Dashboard%20Feedback)
